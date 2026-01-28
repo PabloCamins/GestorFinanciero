@@ -4,7 +4,7 @@ from typing import List
 from core.transaction import Transaction
 from core.parsers.base_parser import BaseParser
 
-class SantanderParser(BaseParser):
+class bbvaParser(BaseParser):
     def parse(self, file_path: str) -> List[Transaction]:
         transactions = []
         
